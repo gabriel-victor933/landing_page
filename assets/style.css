@@ -10,7 +10,7 @@
     background-color: #FDD947 !important;
 }
 
-.bg-light {
+.bg-white {
     background-color: #ffffff !important;
 }
 
@@ -42,4 +42,9 @@
     grid-area: ion-icon;
     font-size: 45px;
     margin-top: 15px;
+}
+
+
+main ion-icon {
+    font-size: 30px;
 }
