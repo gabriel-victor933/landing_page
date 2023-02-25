@@ -48,3 +48,8 @@
 main ion-icon {
     font-size: 30px;
 }
+
+.back-img {
+    background-image: url("https://img.freepik.com/fotos-gratis/fundo-de-fluxo-de-particulas-em-rede-3d_1048-12212.jpg?w=996&t=st=1677362984~exp=1677363584~hmac=038ff806cdc34668abb78a5d6596deaeadc0d332c8061fdc1ee763581c236b10");
+    background-size: cover;
+}
