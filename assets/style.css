@@ -69,3 +69,12 @@ main ion-icon {
 #myCarousel ion-icon {
     color: black
 }
+
+.blog .card,
+.blog img {
+    aspect-ratio: 5/4;
+}
+
+.blog .card:hover {
+    opacity: 0.85;
+}
