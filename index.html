@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
 
+    <link rel="stylesheet" href="../assets/reset.css">
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style.css">
 
@@ -375,19 +376,51 @@
         </div>
     </section>
 
-    <section class="container bg-warning mb-5 p-5" style="height: 175px;">
-        <div class="row">
+    <section class="container-md bg-warning p-5">
+        <div class="row my-4">
             <div class="col-6 fs-5">Sign up for our newsletter to be the first to learn about new products, blogs posts,
                 and
                 other news.</div>
             <div class="col-6">
-                <form class="d-flex">
-                    <input type="email" class="form-control w-75" placeholder="Email">
-                    <button class="btn btn-dark btn-lg ms-3 me-5">Submit</button>
+                <form class="d-flex flex-md-row flex-column ">
+                    <input type="email" class="form-control my-3" placeholder="Email">
+                    <button class="btn btn-dark btn-lg ms-3 my-3 ">Submit</button>
                 </form>
             </div>
         </div>
     </section>
+
+
+    <section class="roadmap container bg-light py-5 ">
+        <div class="display-5 text-center">Roadmap</div>
+    </section>
+
+    <footer class="container-fluid bg-dark-subtle pt-5 pb-3 px-5">
+        <h1 class="display-6 text-white fw-normal">Join Our Community</h1>
+        <p class="fs-5 text-white-50 mb-0 mt-4">Join our community of nearly 20,000 Trust Guardians and help us increase
+            trust for
+            Web3 and the
+            entire internet</p>
+        <p class="fs-5 text-warning-emphasis mb-4">See all communities!</p>
+        <div class="d-flex mt-3 mb-5 icones-g">
+            <ion-icon class="me-4 text-white display-6" name="logo-twitter"></ion-icon>
+            <ion-icon class="me-4 text-white display-6" name="logo-instagram"></ion-icon>
+            <ion-icon class="me-4 text-white display-6" name="logo-discord"></ion-icon>
+        </div>
+        <hr class="text-warning border border-2 border-warning mt-5">
+        <div class="container-fluid d-flex justify-content-between mt-4 mb-1">
+            <p class="text-white fs-6">&copy;2023 All Rights Reserved. </p>
+            <div class="d-flex icones-p flex-wrap">
+                <ion-icon class="ms-3 fs-3 text-white" name="logo-twitter"></ion-icon>
+                <ion-icon class="ms-3 fs-3 text-white" name="logo-instagram"></ion-icon>
+                <ion-icon class="ms-3 fs-3 text-white" name="logo-discord"></ion-icon>
+                <ion-icon class="ms-3 fs-3 text-white" name="logo-youtube"></ion-icon>
+                <ion-icon class="ms-3 fs-3 text-white" name="logo-linkedin"></ion-icon>
+                <ion-icon class="ms-3 fs-3 text-white" name="logo-medium"></ion-icon>
+                <ion-icon class="ms-3 fs-3 text-white" name="logo-reddit"></ion-icon>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
