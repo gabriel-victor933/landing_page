@@ -78,3 +78,35 @@ main ion-icon {
 .blog .card:hover {
     opacity: 0.85;
 }
+
+.vr {
+    background-color: #FDD947 !important;
+    height: 100%;
+    width: 5px;
+    opacity: 1;
+}
+
+.ponta-e,
+.ponta-d {
+    background: black;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+
+}
+
+.ponta-e:before {
+    border: 12px solid transparent;
+    border-right-color: black;
+    content: "";
+    left: -23px;
+    position: absolute;
+}
+
+.ponta-d:before {
+    border: 12px solid transparent;
+    border-left-color: black;
+    content: "";
+    right: -23px;
+    position: absolute;
+}
